@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/jeffdg1986/drum-machine-in-react/static/css/main.87f5fb8f.css",
-    "main.js": "/jeffdg1986/drum-machine-in-react/static/js/main.9a0fc26a.js",
-    "static/js/787.c419f7a1.chunk.js": "/jeffdg1986/drum-machine-in-react/static/js/787.c419f7a1.chunk.js",
-    "static/media/percussion6.wav": "/jeffdg1986/drum-machine-in-react/static/media/percussion6.67bfe268a699591112bf.wav",
-    "static/media/percussion7.wav": "/jeffdg1986/drum-machine-in-react/static/media/percussion7.add70bfe1a242c03cdfd.wav",
-    "static/media/percussion5.mp3": "/jeffdg1986/drum-machine-in-react/static/media/percussion5.dfe0260e4bc25bb7db04.mp3",
-    "static/media/percussion8.wav": "/jeffdg1986/drum-machine-in-react/static/media/percussion8.cfa3aa460580448a2821.wav",
-    "static/media/percussion9.mp3": "/jeffdg1986/drum-machine-in-react/static/media/percussion9.1ca3d932cbba7ff7ebd2.mp3",
-    "static/media/percussion1.mp3": "/jeffdg1986/drum-machine-in-react/static/media/percussion1.90e4bf786acdee6d1e4c.mp3",
-    "static/media/percussion2.mp3": "/jeffdg1986/drum-machine-in-react/static/media/percussion2.04eedbf0ed19fb7d5d13.mp3",
-    "static/media/percussion4.mp3": "/jeffdg1986/drum-machine-in-react/static/media/percussion4.4a92ba19bc37fe7f2fc0.mp3",
-    "static/media/percussion3.mp3": "/jeffdg1986/drum-machine-in-react/static/media/percussion3.1bddcfc1f1625df02a72.mp3",
-    "index.html": "/jeffdg1986/drum-machine-in-react/index.html",
-    "main.87f5fb8f.css.map": "/jeffdg1986/drum-machine-in-react/static/css/main.87f5fb8f.css.map",
-    "main.9a0fc26a.js.map": "/jeffdg1986/drum-machine-in-react/static/js/main.9a0fc26a.js.map",
-    "787.c419f7a1.chunk.js.map": "/jeffdg1986/drum-machine-in-react/static/js/787.c419f7a1.chunk.js.map"
+    "main.css": "/jeffdg1986/percussion-machine/static/css/main.87f5fb8f.css",
+    "main.js": "/jeffdg1986/percussion-machine/static/js/main.beee9f48.js",
+    "static/js/787.c419f7a1.chunk.js": "/jeffdg1986/percussion-machine/static/js/787.c419f7a1.chunk.js",
+    "static/media/percussion6.wav": "/jeffdg1986/percussion-machine/static/media/percussion6.67bfe268a699591112bf.wav",
+    "static/media/percussion7.wav": "/jeffdg1986/percussion-machine/static/media/percussion7.add70bfe1a242c03cdfd.wav",
+    "static/media/percussion5.mp3": "/jeffdg1986/percussion-machine/static/media/percussion5.dfe0260e4bc25bb7db04.mp3",
+    "static/media/percussion8.wav": "/jeffdg1986/percussion-machine/static/media/percussion8.cfa3aa460580448a2821.wav",
+    "static/media/percussion9.mp3": "/jeffdg1986/percussion-machine/static/media/percussion9.1ca3d932cbba7ff7ebd2.mp3",
+    "static/media/percussion1.mp3": "/jeffdg1986/percussion-machine/static/media/percussion1.90e4bf786acdee6d1e4c.mp3",
+    "static/media/percussion2.mp3": "/jeffdg1986/percussion-machine/static/media/percussion2.04eedbf0ed19fb7d5d13.mp3",
+    "static/media/percussion4.mp3": "/jeffdg1986/percussion-machine/static/media/percussion4.4a92ba19bc37fe7f2fc0.mp3",
+    "static/media/percussion3.mp3": "/jeffdg1986/percussion-machine/static/media/percussion3.1bddcfc1f1625df02a72.mp3",
+    "index.html": "/jeffdg1986/percussion-machine/index.html",
+    "main.87f5fb8f.css.map": "/jeffdg1986/percussion-machine/static/css/main.87f5fb8f.css.map",
+    "main.beee9f48.js.map": "/jeffdg1986/percussion-machine/static/js/main.beee9f48.js.map",
+    "787.c419f7a1.chunk.js.map": "/jeffdg1986/percussion-machine/static/js/787.c419f7a1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.87f5fb8f.css",
-    "static/js/main.9a0fc26a.js"
+    "static/js/main.beee9f48.js"
   ]
 }
