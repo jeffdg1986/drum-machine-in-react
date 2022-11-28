@@ -19,7 +19,7 @@
   
 }
 .peptide{
-  width: 10%;
+  width: 15%;
   height: 10%;
 }
 #drum-machine{
@@ -63,6 +63,7 @@
   color: white;
   height: 50px;
   font-size: 24px;
+  padding-top: 13px;
   text-align: center;
   width: 182px;
   margin: auto;
@@ -84,10 +85,17 @@
 .powerSwitch{
   position: relative;
   display: inline-block;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   margin-left: 10px;
-
+  width: 40px;
+  background-color: black;
+  color: white;
 }
+
+.powerSwitch:hover{
+  border: 2px solid gold;
+}
+
 .power{
 position: relative;
 height: auto;
