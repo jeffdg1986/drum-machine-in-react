@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/percussion-machine/static/css/main.ab2e3c1c.css",
+    "main.css": "/percussion-machine/static/css/main.259fdb6c.css",
     "main.js": "/percussion-machine/static/js/main.dd983958.js",
     "static/js/787.c419f7a1.chunk.js": "/percussion-machine/static/js/787.c419f7a1.chunk.js",
     "static/media/percussion6.wav": "/percussion-machine/static/media/percussion6.67bfe268a699591112bf.wav",
@@ -13,12 +13,12 @@
     "static/media/percussion4.mp3": "/percussion-machine/static/media/percussion4.4a92ba19bc37fe7f2fc0.mp3",
     "static/media/percussion3.mp3": "/percussion-machine/static/media/percussion3.1bddcfc1f1625df02a72.mp3",
     "index.html": "/percussion-machine/index.html",
-    "main.ab2e3c1c.css.map": "/percussion-machine/static/css/main.ab2e3c1c.css.map",
+    "main.259fdb6c.css.map": "/percussion-machine/static/css/main.259fdb6c.css.map",
     "main.dd983958.js.map": "/percussion-machine/static/js/main.dd983958.js.map",
     "787.c419f7a1.chunk.js.map": "/percussion-machine/static/js/787.c419f7a1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab2e3c1c.css",
+    "static/css/main.259fdb6c.css",
     "static/js/main.dd983958.js"
   ]
 }
