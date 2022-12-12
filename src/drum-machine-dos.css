@@ -1,0 +1,252 @@
+
+/* live area */
+
+
+main{
+    margin: auto;
+}
+.Q{
+ grid-area: Q;
+ width: 100%;
+ height: auto;   
+}
+.W{
+    grid-area: W;
+    width: 100%;
+    height: auto;   
+}
+.E{
+    grid-area: E;
+    width: 100%;
+    height: auto;   
+}
+.A{
+    grid-area: A;
+    width: 100%;
+    height: auto;   
+}
+.S{
+    grid-area: S;
+    width: 100%;
+    height: auto;   
+}
+.D{
+    grid-area: D;
+    width: 100%;
+    height: auto;   
+}
+.Z{
+    grid-area: Z;
+    width: 100%;
+    height: auto;   
+}
+.X{
+    grid-area: X;
+    width: 100%;
+    height: auto;   
+}
+.C{
+    grid-area: C;
+    width: 100%;
+    height: auto;   
+}
+.display{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    grid-area: display;
+    width: 100%;
+    height: auto;
+    border: 4px solid white;
+    background-color: black;
+    color: white;
+    min-width: 200px;
+
+}
+.grid-container{
+    padding: 10px;
+    overflow: hidden;
+    background-color:bisque;
+    width: calc(90% - 10px);
+    margin: auto;
+    height: auto;
+    display: grid;
+    border: 2px ridge black;
+    grid-template-columns:  repeat(6, minmax(35px, 1fr));
+    grid-template-rows: repeat(5, minmax(35px, 150px));
+    grid-template-areas: 
+    'power power powerSwitch powerSwitch . peptide'
+    'display display display display display display'
+    'Q Q W W E E'
+    'A A S S D D'
+    'Z Z X X C C'
+    ;
+    gap: 10px;
+    font-weight: bolder;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    height: auto;
+    
+}
+.branding{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.myName{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.peptide{
+    grid-area: peptide;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: inline;
+}
+.power{
+    grid-area: power;
+    width: 100%;
+    height: auto;
+}
+.powerSwitch{
+    grid-area: powerSwitch;
+    width: 100%;
+    height: auto;
+    color: white;
+    font-size: 2rem;
+    border-radius: 5%;
+}
+.powerSwitch:hover{
+    opacity: 0.7;
+    border: 5px solid black;
+}
+button{
+    background-color:steelblue;
+    font-weight: bolder;
+}
+footer{
+    text-align: center;
+}
+
+/* media queries */
+
+/* small mobile device */
+@media only screen and (min-width: 50px) and (max-width: 320.99px){
+    .grid-container{
+        grid-template-columns: repeat(6, 35px);
+        grid-template-rows: repeat(5, 35px);
+        
+    }
+    button, .powerSwitch, .power, .display{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .myName{
+        font-size: 1.5rem;
+    }
+  }
+  
+  /* medium mobile device */
+  @media only screen and (min-width: 321px) and (max-width: 375.99px){
+.grid-container{
+    grid-template-columns: repeat(6, minmax(35px, 50px));
+    grid-template-rows: repeat(5, minmax(35px, 50px));
+}
+button, .powerSwitch, .power, .display{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .myName{
+    font-size: 1.75rem;
+}
+}
+  
+  /* large mobile device */
+  @media only screen and (min-width: 376px) and (max-width: 425.99px){
+    .grid-container{
+        grid-template-columns: repeat(6, minmax(50px, 75px));
+        grid-template-rows: repeat(5, minmax(50px, 75px));
+    }
+    button, .powerSwitch, .power, .display{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .myName{
+        font-size: 1.75rem;
+    }
+  }
+    
+  /* Tablet */
+  @media only screen and (min-width: 426px) and (max-width: 768.99px){
+    .grid-container{
+        grid-template-columns: repeat(6, minmax(35px, 80px));
+        grid-template-rows: repeat(5, minmax(35px, 80px));
+        
+    }
+    button, .powerSwitch, .power, .display{
+        font-size: 1.75rem;
+        text-align: center;
+    }
+    .myName{
+        font-size: 2rem;
+    }
+  
+  }
+  
+  /* Laptop */
+  @media only screen and (min-width: 769px) and (max-width: 1024.99px){
+    .grid-container{
+        grid-template-columns: repeat(6, minmax(90px, 103px));
+        grid-template-rows: repeat(5, minmax(90px, 103px));
+        
+    }
+    button, .powerSwitch, .power, .display, .myName{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    
+  }
+  
+  /* Large Laptop */
+  @media only screen and (min-width: 1025px) and (max-width: 1440.99px){
+    .grid-container{
+        grid-template-columns: repeat(6, minmax(105px, 120px));
+        grid-template-rows: repeat(5, minmax(105px, 120px));
+        
+    }
+    button, .powerSwitch, .power, .display, .myName{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .power{
+        padding-top: 15%;
+    }
+  }
+  
+  /* 4K */
+  @media only screen and (min-width: 1441px){
+    .grid-container{
+        grid-template-columns: repeat(6, minmax(120px, 130px));
+        grid-template-rows: repeat(5, minmax(120px, 130px));
+        
+    }
+    button, .powerSwitch, .power, .display,.myName{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .power{
+        padding-top: 15%;
+    }
+  
+  }
+
+
+
