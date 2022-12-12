@@ -8,47 +8,56 @@ main{
 .Q{
  grid-area: Q;
  width: 100%;
- height: auto;   
+ height: auto;
+ color: black;   
 }
 .W{
     grid-area: W;
     width: 100%;
-    height: auto;   
+    height: auto;
+    color: black;   
 }
 .E{
     grid-area: E;
     width: 100%;
-    height: auto;   
+    height: auto;
+    color: black;   
 }
 .A{
     grid-area: A;
     width: 100%;
-    height: auto;   
+    height: auto;
+    color: black;   
 }
 .S{
     grid-area: S;
     width: 100%;
-    height: auto;   
+    height: auto;
+    color: black;   
 }
 .D{
     grid-area: D;
     width: 100%;
-    height: auto;   
+    height: auto;
+    color: black;   
 }
 .Z{
     grid-area: Z;
     width: 100%;
-    height: auto;   
+    height: auto;
+    color: black;   
 }
 .X{
     grid-area: X;
     width: 100%;
-    height: auto;   
+    height: auto;
+    color: black;   
 }
 .C{
     grid-area: C;
     width: 100%;
-    height: auto;   
+    height: auto;
+    color: black;   
 }
 .display{
     position: relative;
@@ -131,6 +140,7 @@ main{
 button{
     background-color:steelblue;
     font-weight: bolder;
+    color: black;
 }
 footer{
     text-align: center;
